@@ -1,3 +1,3 @@
 # simple_client
 
-对IM
+对IM拙劣的模仿
