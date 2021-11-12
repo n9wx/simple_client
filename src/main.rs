@@ -17,6 +17,7 @@ const DEFAULT_ADDR: &'static str = "127.0.0.1:8000";
 async fn main() -> Result<(), Box<dyn Error>> {
     let args = clap_app!(simple_client =>
         (version: "0.0.1")
+        (author: "危南鑫")
         (@arg SERVER: -s --server "server start")
         (@arg ADDRESS: -a --address +takes_value "address")
         (@arg USERNAME: -u --username +takes_value "username")
